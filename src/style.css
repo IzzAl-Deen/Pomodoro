@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    background-color:bisque;
+    margin: 0;
+    padding: 20px;
+  }
+  #timer {
+    font-size: 3rem;
+    margin: 20px 0;
+  }
+  .controls button {
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    color: wheat;
+    font-weight: 700;
+    padding: 15px 25px;
+    font-size: 1rem;
+    margin: 10px;
+    transition: all 0.5s ease;
+  }
+
+  .controls button:hover{
+    background-color: wheat;
+    color: black;
+    transition: all 0.5s ease;
+    border: black 0.5px solid;
+    transform: scale(0.9);
+
+  }
+
+  .container{
+    background-color: beige;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 700px;
+    padding: 50px;
+  }
+
+  .settings {
+    padding: 50px;
+    background-color: wheat;
+    border-radius: 20px;
+    margin: 10px;
+    height: 350px;
+    border: 3px solid black;
+  }
+
+  .settings input {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: beige;
+  }
+  .settings label {
+    font-weight: 600;
+  }
